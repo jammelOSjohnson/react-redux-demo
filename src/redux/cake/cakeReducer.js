@@ -1,7 +1,7 @@
 import { BUY_CAKE } from "./cakeTypes";
 
 const initialState = {
-  numOfCakes: 0,
+  numOfCakes: 10,
 };
 
 const cakeReducer = (state = initialState, action) => {
